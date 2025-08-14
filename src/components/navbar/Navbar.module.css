@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    background-color: rgb(8, 105, 8);
+    color: #dddedd;
+}
+.brand{
+    font-size: 30px;
+    font-weight: 900;
+}
+.navs{
+    display: flex;
+    gap: 2rem;
+}
+.navs > a{
+    color: #dddedd;
+    text-decoration: none;
+    font-size: 20px;
+}
