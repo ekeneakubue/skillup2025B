@@ -30,7 +30,15 @@ export default function Portfolio() {
                   name = 'Abel John Chiemerie' 
                   path='Frontend Engineer'
                 />
-                
+                  img = './images/portfolios/johnmary.jpg'
+                  name = 'JohnMary Nwokolo' 
+                  path='Rookie developer'
+                />
+                <PortfolioCard 
+                  img = './images/portfolios/Munachi.jpg'
+                  name = 'Munachi, Krisagbedo' 
+                  path='Frontend Engineer'
+                />
               </section>
             </div>
         </div>
