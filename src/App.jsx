@@ -8,6 +8,7 @@ import Portfolio from './pages/portfolio/Portfolio'
 import Gallery from './pages/gallery/Gallery'
 import Contacts from './pages/contacts/Contacts'
 import Ekene from './pages/portfolio/ekene/Ekene'
+import Somto from './pages/portfolio/somto/Somto'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path = '/gallery' element = {<Gallery />} />
         <Route path = '/ekene' element = {<Ekene />} />
         <Route path = '/contacts' element = {<Contacts />} />
+        <Route path = '/somto' element = {<Somto />} />
       </Routes>
     </BrowserRouter>
   )

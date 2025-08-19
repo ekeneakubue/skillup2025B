@@ -35,6 +35,7 @@ export default function Portfolio() {
                     path= 'Junior Frontend Developer'
                     img = './images/portfolios/Elonmusk.jpeg'git 
                     name = 'Okolo Somto'
+                    link = '/somto'
                  />               
                 <PortfolioCard 
                   img = './images/portfolios/John.jpg'
