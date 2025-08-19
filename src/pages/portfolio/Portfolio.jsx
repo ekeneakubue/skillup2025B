@@ -15,6 +15,7 @@ export default function Portfolio() {
                   img = './images/portfolios/Ekene.png'
                   name = 'Ekene Akubue' 
                   path='Frontend Engineer'
+                  link='/ekene'
                 />
                 <PortfolioCard 
                   img = './images/portfolios/Ekene.png'

@@ -7,6 +7,7 @@ import About from './pages/about/About'
 import Portfolio from './pages/portfolio/Portfolio'
 import Gallery from './pages/gallery/Gallery'
 import Contacts from './pages/contacts/Contacts'
+import Ekene from './pages/portfolio/ekene/Ekene'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path = '/about' element = {<About/>} />
         <Route path = '/portfolio' element = {<Portfolio />} />
         <Route path = '/gallery' element = {<Gallery />} />
+        <Route path = '/ekene' element = {<Ekene />} />
         <Route path = '/contacts' element = {<Contacts />} />
       </Routes>
     </BrowserRouter>
