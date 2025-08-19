@@ -27,17 +27,7 @@ export default function Portfolio() {
               <section>
                 <PortfolioCard 
                   img = './images/portfolios/John.jpg'
-                  name = 'Abel John Chiemerie' 
-                  path='Frontend Engineer'
-                />
-                <PortfolioCard
-                  img = './images/portfolios/johnmary.jpg'
-                  name = 'JohnMary Nwokolo' 
-                  path='Rookie developer'
-                />
-                <PortfolioCard 
-                  img = './images/portfolios/Munachi.jpg'
-                  name = 'Munachi, Krisagbedo' 
+                  name = 'Abel, John Chiemerie' 
                   path='Frontend Engineer'
                 />
               </section>
