@@ -25,15 +25,15 @@ export default function Portfolio() {
             </div>
             <div className={style.student_cards}>
               <section>
-               <PorfolioCard
-                  path= 'Froontend Developer'
-                  img = './images/portfolios/Elonmusk.jpeg'
-                  name = 'Okolo Somto'
-               />
-               <PortfolioCard
-                  path='Junior Frontend Developer'
-                  img = './images/portfolios/John.jpg'
-                  path='Frontend Engineer'
+                 <PorfolioCard
+                    path= 'Froontend Developer'
+                    img = './images/portfolios/Elonmusk.jpeg'
+                    name = 'Okolo Somto'
+                 />               
+                <PortfolioCard 
+                  img = './public/images/portfolios/Daberechi .jpg'
+                  name = 'Angela Dabere' 
+                  path='Junior Frontend Engineer'
                 />
                 <PortfolioCard
                   img = './images/portfolios/johnmary.jpg'
@@ -44,6 +44,11 @@ export default function Portfolio() {
                   img = './images/portfolios/Munachi.jpg'
                   name = 'Munachi, Krisagbedo' 
                   path='Frontend Engineer'
+                />
+                <PortfolioCard 
+                  img = './images/portfolios/favour.jpg'
+                  name = 'chukwubuike, Ndubuisi' 
+                  path='Junior Frontend Engineer'
                 />
               </section>
             </div>
