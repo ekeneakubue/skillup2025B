@@ -25,15 +25,15 @@ export default function Portfolio() {
             </div>
             <div className={style.student_cards}>
               <section>
+                 <PorfolioCard
+                    path= 'Froontend Developer'
+                    img = './images/portfolios/Elonmusk.jpeg'
+                    name = 'Okolo Somto'
+                 />               
                 <PortfolioCard 
                   img = './public/images/portfolios/Daberechi .jpg'
                   name = 'Angela Dabere' 
                   path='Junior Frontend Engineer'
-                />
-                <PortfolioCard
-                  img = './images/portfolios/John.jpg'
-                  name = 'John' 
-                  path='Frontend Engineer'
                 />
                 <PortfolioCard
                   img = './images/portfolios/johnmary.jpg'
