@@ -66,6 +66,11 @@ export default function Portfolio() {
                   name = 'Chukwuone, Nnemeka' 
                   path='Junior Frontend Engineer'
                 />
+                  <PortfolioCard 
+                  img = './images/portfolios/bunny.jpeg'
+                  name = 'Chukwuone, Sochima' 
+                  path='Junior Frontend Engineer'
+                />                
               </section>
             </div>
         </div>
