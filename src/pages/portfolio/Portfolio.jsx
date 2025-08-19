@@ -25,10 +25,35 @@ export default function Portfolio() {
             </div>
             <div className={style.student_cards}>
               <section>
+                 <PortfolioCard
+                    path= 'Froontend Developer'
+                    img = './images/portfolios/Elonmusk.jpeg'
+                    name = 'Okolo Somto'
+                 />               
                 <PortfolioCard 
                   img = './images/portfolios/John.jpg'
                   name = 'Abel, John Chiemerie' 
+                  path = "Frontend Developer"
+                />
+                <PortfolioCard
+                  img = './public/images/portfolios/Daberechi .jpg'
+                  name = 'Angela Dabere' 
+                  path='Junior Frontend Engineer'
+                />
+                <PortfolioCard
+                  img = './images/portfolios/johnmary.jpg'
+                  name = 'JohnMary Nwokolo' 
+                  path='Rookie developer'
+                />
+                <PortfolioCard 
+                  img = './images/portfolios/Munachi.jpg'
+                  name = 'Munachi, Krisagbedo'
                   path='Frontend Engineer'
+                />
+                <PortfolioCard 
+                  img = './images/portfolios/favour.jpg'
+                  name = 'chukwubuike, Ndubuisi' 
+                  path='Junior Frontend Engineer'
                 />
               </section>
             </div>
