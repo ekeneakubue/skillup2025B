@@ -27,7 +27,7 @@ export default function Portfolio() {
               <section>
                  <PortfolioCard
                     path= 'Junior Frontend Developer'
-                    img = './images/portfolios/Elonmusk.jpeg'
+                    img = './images/portfolios/Elonmusk.jpeg'git 
                     name = 'Okolo Somto'
                  />               
                 <PortfolioCard 
