@@ -3,25 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header_container{
+
+
+.container_somtonavbar{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 1rem 4rem;
-    background-color: rgb(8, 90, 105);
-    color: #dddedd;
+    align-items: center;
+    margin: 20px 170px;
 }
-.brand{
-    font-size: 30px;
-    font-weight: 900;
-    font-family: Georgia;
-}
+
 .navs{
     display: flex;
-    gap: 2rem;
+    align-items: center;
+    list-style: none;
+    gap: 60px
 }
-.navs > a{
-    color: #dddedd;
-    text-decoration: none;
-    font-size: 20px;
+
+.nav_connect{
+    padding:20px 40px;
+    background-color: #13dd35;
+    color: white;
+    border-radius: 50px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.container_somtonavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+  position: fixed;  /* keeps navbar at top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.intro_section {
+  margin-top: 100px; /* pushes text below fixed navbar */
+  text-align: center;
+  color: #333;
+  padding: 20px;
+}
+
+.somtoprofile_image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  bottom: 10px solid #fff;
 }
