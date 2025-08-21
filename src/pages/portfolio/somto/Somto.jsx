@@ -1,6 +1,5 @@
 import React from 'react'
 import style from './Somto.module.css'
-import Navbar from '../../../components/navbar/Navbar'
 import { Link } from 'react-router-dom'
 
 
@@ -14,13 +13,13 @@ export default function Somto() {
                   <ul className={style.navs}>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About Me</a></li>
-                    <li>Projects</li>
-                    <li>Skills</li>
-                    <li>Experience</li>
-                    <li>Contact</li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
                   </ul>
                   <div className={style.nav_connect}>Connect With Me</div>
-            </div>
+        </div>
 
 
               <div id="home" className={style.intro_section}>
@@ -85,17 +84,86 @@ export default function Somto() {
                     <h1>15+</h1>
                     <p>HAPPY CLIENTS</p>
                   </div>
+                </div>
+                </div>
+              </div>
 
-          
+
+
+              <div id="projects" className={style.container_projects}>
+                  <div className={style.container_project_title}>
+                    <h1>My latest Work</h1>
+                    <img src="/images/portfolios/Elonmusk.jpeg" alt="Somto" className={style.about_image} />
+                  </div>
+                  <div className={style.container_showmore}>
+                    <p>Show More</p>
+                  </div>
+
+                </div>
+
+                
+
+                
+                <div id="skills" className={style.skills}>
+
                 </div>
 
 
 
-
+                <div id="experience" className={style.experience}>
 
                 </div>
+
+
+                <div id="contact" className={style.contact}>
+                  <div className={style.contact_title}>
+                    <h1>Get in touch</h1>
+                  </div>
+
+                  <div className={style.contact_section}>
+                    <div className={style.contact_left}>
+                    <h1>Let's talk</h1>
+                    <p>I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime. </p>
+                  
+
+                        <div className={style.contact_details}>
+                          <div className={style.contact_detail}>
+                            <p>greatstackdev@gmail.com</p>
+                          </div>
+                          <div className={style.contact_detail}>
+                            <p>+234-7057-169-423</p>
+                          </div>
+                          <div className={style.contact_detail}>
+                            <p>Enugu State, Nigeria</p>
+                          </div>
+                        </div>
+                  </div>
+                   <form className={style.contact_right}>
+                          <label htmlFor=''>Your Name</label>
+                          <input type="text" placeholder='Enter yor name' name='name'></input>
+                          <label htmlFor=''>Your Email</label>
+                          <input type="email" placeholder='Enter yor email' name='email'></input>
+                          <label htmlFor=''>Write your message here</label>
+                          <textarea type="message" rows='8' placeholder='Enter your message here' name='name'></textarea>
+                          <button type='submit' className={style.contact_submit}>Submit now</button>
+                        </form>
+                </div>
+              </div>
+
+              <div className={style.footer}>
+                <hr />
+                <p className={style.footer_bottom}> © 2025 Okolo Somto. All rights reserved</p>
+                <div className={style.footer_bottom_right}>
+                  <p>Term of Services</p>
+                  <p>Privacy Policy</p>
+                  <p>Connect with me</p>
+
+                </div>
+
 
               </div>
+
+
 
   </>
   )
