@@ -8,56 +8,125 @@ html {
   scroll-behavior: smooth;
 }
 
-.navs li a {
-  text-decoration: none;
-  color: rgb(33, 136, 122);
-  transition: color 0.3s;
-}
 
 
+/*NAVBAR*/
 
 .container_somtonavbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 4rem;
+    background-color: #222;
+    position: fixed;  /* keeps navbar at top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
+
+.navs li a{
+  display: flex;
+  color:rgb(255, 255, 255);
+  gap: 50px;
+}
+
+.navs li a:hover,
+.navs li a:focus{
+  border-bottom:  3px solid rgb(252, 25, 25);
+}
+
+ li a:active{
+  border-bottom:  3px solid rgb(252, 25, 25);
+  color: rgb(252, 25, 25);
+  font-weight: bold;
+  transition: 0.3s;
+  text-decoration: underline;
+  text-decoration-color: rgb(252, 25, 25);
+  text-underline-offset: 5px;
+}
+
 
 .navs{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px
+    gap: 6rem;
+    color: rgb(160, 43, 43);
+    font-family: Outfit;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 .nav_connect{
-    padding:10px 30px;
-    background-color: #13dd35;
-    color: white;
-    border-radius: 50px;
-    font-size: 22px;
-    cursor: pointer;
+  padding: 15px 15px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+  border: 2px solid #000000;
+  cursor:pointer;
+  color: #ffffff;
+  margin: none;
+  gap:20rem;
+  display:flex;
+  transition: 0.5s;
 }
 
-.container_somtonavbar {
+.nav_connect:hover{
+  transform: scale(1.05);
+}
+
+
+
+/*HOME*/
+
+.intro_button{
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background: #222;
-  color: #fff;
-  position: fixed;  /* keeps navbar at top */
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
+  gap: 70px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 
-.intro_section {
-  margin-top: 100px; /* pushes text below fixed navbar */
-  text-align: center;
-  color: #333;
-  padding: 20px;
+.intro_buttonconnect{
+  padding: 25px 45px;
+  border-radius: 50px;
+  background: #222;
+  cursor:pointer;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.intro_buttonconnect:hover{
+  border: 2px solid rgb(0, 0, 0);
+  transform: scale(1.05);
+}
+
+
+.intro_buttonresume{
+  padding: 25px 75px;
+  border-radius: 50px;
+  background: #fff;
+  border: 2px solid #000000;
+  cursor:pointer;
+  color: #000000;
+  transition: 0.5s;
+}
+
+.intro_buttonresume:hover{
+  border: 3px solid #000000;
+  transform: scale(1.05);
+}
+
+
+.intro_section h1 span{
+  background: linear-gradient(270deg, black 50%, red 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .somtoprofile_image {
@@ -66,14 +135,14 @@ html {
   border-radius: 50%;
   margin-bottom: 20px;
   bottom: 10px solid #fff;
-  margin-top: 10px;
+  margin-top: 100px;
 }
 
 .intro_section{
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 35px;
+    gap: 1px;
 }
 
 .intro_section h1 {
@@ -85,14 +154,22 @@ html {
     font-size: 40px;
 }
 
+.intro_section p{
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+
 .hr{
     width: 50%
 }
 
 
+/*ABOUT*/
 .about_image{
-    width: 500px;
-    height: 500px;
+    width: 3000x;
+    height: 300px;
 }
 
 

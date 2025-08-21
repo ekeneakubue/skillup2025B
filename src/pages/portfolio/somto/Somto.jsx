@@ -9,27 +9,26 @@ export default function Somto() {
   <>
     
         <div className={style.container_somtonavbar}>
-              <div className={style.brand}>Portfolio</div>
+              <div className={style.brand}></div>
                   <ul className={style.navs}>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#experience">EXPERIENCE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                   </ul>
-                  <div className={style.nav_connect}>Connect With Me</div>
+                  <div className={style.nav_connect}>Connect with Me</div>
         </div>
 
 
               <div id="home" className={style.intro_section}>
                 <img src="/images/portfolios/Elonmusk.jpeg" alt="Somto" className={style.somtoprofile_image} />
-                    <h1>Hello, I'm Okolo Somtochukwu, junior frontend developer based in Nigeria. </h1>
+                    <h1><span>Hello, I'm Okolo Somtochukwu,</span> a junior frontend developer based in Nigeria. </h1>
                       <p> I’m a passionate Junior Frontend Developer who loves creating clean, modern, and responsive websites.</p>
-                      <p>Scroll down to explore my projects, skills, and experience 🚀</p>
-
+                      <p> Scroll down to explore my projects, skills, and experience 🚀</p>
                   <div className={style.intro_button}>
-                    <div className={style.intro_buttonconnect}>Connect With Me</div>
+                    <div className={style.intro_buttonconnect}>Connect with Me</div>
                     <div className={style.intro_buttonresume}>My resume</div>
                   </div>
               </div>
@@ -38,7 +37,7 @@ export default function Somto() {
             
               <div id="about" className={style.about}>
                 <div className={style.about_title}>
-                  <h1>About Me</h1>
+                  <h1>About me</h1>
                 </div>
                 <div className={style.about_section}>
                   <div className={style.about_left}>
@@ -48,8 +47,8 @@ export default function Somto() {
   
                   <div className={style.about_right}>
                     <div className={style.about_para}>
-                      <p>I am a junior Frontend Developer </p>
-                      <p>My passion for frontend development is not only</p>
+                      <p>I am a junior Frontend Developer with over two years in the field.Throughout my career,I have had the privilege of collaborating with prestigious organization, contributing to their success and growth.  </p>
+                      <p>My passion for frontend development is not only but also in the enthusiasm and dedication I bring to each project.</p>
                   </div>
 
                   <div className={style.about_skills}>
