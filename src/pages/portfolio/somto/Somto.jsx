@@ -37,34 +37,20 @@ export default function Somto() {
             
               <div id="about" className={style.about}>
                 <div className={style.about_title}>
-                  <h1>About me</h1>
+                  <h1>About Me</h1>
                 </div>
-                <div className={style.about_section}>
-                  <div className={style.about_left}>
-                    <img src="/images/portfolios/Elonmusk.jpeg" alt="Somto" className={style.about_image} />
-                  </div>
-
-  
-                  <div className={style.about_right}>
+                
                     <div className={style.about_para}>
-                      <p>I am a junior Frontend Developer with over two years in the field.Throughout my career,I have had the privilege of collaborating with prestigious organization, contributing to their success and growth.  </p>
-                      <p>My passion for frontend development is not only but also in the enthusiasm and dedication I bring to each project.</p>
+                      <p>I am a junior Frontend Developer with over two years in the field.Throughout my career,I have had the privilege of collaborating with prestigious organization, contributing to their success and growth. My passion for frontend development is not only but also in the enthusiasm and dedication I bring to each project.</p>
                   </div>
 
                   <div className={style.about_skills}>
-                    <div className={style.about_skills}><p>HTML & CSS</p></div>
-                    <hr className={style.hr}></hr>
-
-                    <div className={style.about_skills}><p>React JS</p></div>
-                    <hr className={style.hr}></hr>
-
-                    <div className={style.about_skills}><p>Basic Javascript</p></div>
-                    <hr className={style.hr}></hr>
-
-                    <div className={style.about_skills}><p>Basic </p></div>
-                    <hr className={style.hr}></hr>
+                    <div className={style.about_skill}><p>HTML & CSS</p><hr style={{width:"70%"}} /></div>
+                    <div className={style.about_skill}><p>React JS</p><hr style={{width:"40%"}} /></div>
+                    <div className={style.about_skill}><p>Basic Javascript</p><hr style={{width:"60%"}} /></div>
+                    <div className={style.about_skill}><p>Basic Python</p><hr style={{width:"50%"}} /></div>
                   </div>
-                </div>
+                
 
 
 
@@ -85,14 +71,14 @@ export default function Somto() {
                   </div>
                 </div>
                 </div>
-              </div>
+              
 
 
 
               <div id="projects" className={style.container_projects}>
                   <div className={style.container_project_title}>
                     <h1>My latest Work</h1>
-                    <img src="/images/portfolios/Elonmusk.jpeg" alt="Somto" className={style.about_image} />
+                    <img src="/images/portfolios/Elonmusk.jp" alt="Somto" className={style.project_image} />
                   </div>
                   <div className={style.container_showmore}>
                     <p>Show More</p>
@@ -104,6 +90,21 @@ export default function Somto() {
 
                 
                 <div id="skills" className={style.skills}>
+                  <div className={style.skills_title}>7
+                    <h1>My Skills</h1>
+                    <div className={style.skills_images}>
+                      <main className={style.skills_main}>
+                        <div>1</div>
+                        <div>1</div>
+                        <div>1</div>
+                        <div className={style.four}>1</div>
+                        <div>1</div>
+                        <div>1</div>
+                        
+                      </main>
+                    </div>
+
+                  </div>
 
                 </div>
 

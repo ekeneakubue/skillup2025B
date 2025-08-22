@@ -31,8 +31,7 @@ html {
   gap: 50px;
 }
 
-.navs li a:hover,
-.navs li a:focus{
+.navs li a:hover{
   border-bottom:  3px solid rgb(252, 25, 25);
 }
 
@@ -64,7 +63,7 @@ html {
   padding: 15px 15px;
   border-radius: 50px;
   background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
-  border: 2px solid #000000;
+  border: none;
   cursor:pointer;
   color: #ffffff;
   margin: none;
@@ -167,9 +166,157 @@ html {
 
 
 /*ABOUT*/
+
+.about{
+  display: flex;
+  flex-direction: column;
+}
+
+    
+
+.about_title{
+  position: relative;
+}
+
+.about_title h1{
+  padding: 0px 0px;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 100px;
+  background: linear-gradient(270deg, black 50%, red 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about_section{
+  display: flex;
+  align-items: flex-start;
+}
+
+.about_para{
+  margin-top: 30px;
+}
+
+.about_para p{
+  width: 100%;
+  text-align: left;
+  font-size: 24px;
+  line-height: 40px;
+}
+.about_left{
+  display: flex;
+  align-items: center;
+  width:50px;
+  height: 50px;
+  flex: 0 0 auto;
+  margin-right: 32px;
+}
+
 .about_image{
-    width: 3000x;
-    height: 300px;
+  display: block;
+  width: 200px; /* adjust as needed */
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px; /* optional: rounded corners */
+  width: 300px;
+  height: 300px;
+}
+
+
+.about_right{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+
+.about_skills{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 50px;
+}
+
+.about_skill{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  transition: all;
+  margin-top: 40px;;
+}
+
+.about_skills p{
+  min-width: 150px;
+  font-size: 24px;
+  font: 500;
+  gap: 10px;
+  
+}
+
+.about_skill hr{
+  outline:none;
+  border: none;
+  width: 50%;
+  height: 8px;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #DA7C25 -05.09%, #B923E1 106.28%);
+  transition: 0.3s;
+}
+
+
+  
+
+.about_skill hr:hover{
+  border: 3px solid (264deg, #DA7C25 -05.09%, #B923E1 106.28%);
+  transform: scale(1.05);
+}
+
+.about_achievements{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+
+.about_achievement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: 0.5s;
+}
+
+.about_achievement h1{
+  font-size: 50px;
+  font-weight: 700;
+  background:  (270deg, #DA7C25 50.09%, #B923E1 106.28%);
+}
+
+.about_achievement p{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.about_skill:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.about_achievement:hover{
+  transform: scale(1.12);
+  transition: 0.5s;
+}
+
+
+
+
+/*PROJECTS`*/
+.skills_main{
+  display: grid;
+  grid-template-columns: auto,auto,auto;
+  gap:20px;
 }
 
 
