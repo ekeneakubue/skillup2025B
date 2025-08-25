@@ -14,11 +14,11 @@ export default function Somto() {
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#skills">SERVICES</a></li>
                     <li><a href="#experience">EXPERIENCE</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                   </ul>
-                  <div className={style.nav_connect}>Connect with Me</div>
+                  <div className={style.nav_connect}><a href="#connectwithme">Connect with Me</a></div>
         </div>
 
 
@@ -40,8 +40,9 @@ export default function Somto() {
                   <h1>About Me</h1>
                 </div>
                 
-                    <div className={style.about_para}>
-                      <p>I am a junior Frontend Developer with over two years in the field.Throughout my career,I have had the privilege of collaborating with prestigious organization, contributing to their success and growth. My passion for frontend development is not only but also in the enthusiasm and dedication I bring to each project.</p>
+                  <div className={style.about_para}>
+                      <p>I am an experienced Junior Frontend Developer with over two years of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organization, contributing to their success and growth.</p>
+                      <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
                   </div>
 
                   <div className={style.about_skills}>
@@ -76,33 +77,42 @@ export default function Somto() {
 
 
               <div id="projects" className={style.container_projects}>
-                  <div className={style.container_project_title}>
-                    <h1>My latest Work</h1>
-                    <img src="/images/portfolios/Elonmusk.jp" alt="Somto" className={style.project_image} />
+                  <div  className={style.container_project_title}>
+                    <h1 >My latest Work</h1>
                   </div>
-                  <div className={style.container_showmore}>
-                    <p>Show More</p>
+                  <div className={style.project_images}>
+                      <img src="/images/somtoimages/template.jpg" />
+                      <img src="/images/somtoimages/template.jpg" />
+                      <img src="/images/somtoimages/template.jpg" />
+                      <img src="/images/somtoimages/template.jpg" />
+                      <img src="/images/somtoimages/template.jpg" />
+                      <img src="/images/somtoimages/template.jpg" />
+                      <img src="/images/somtoimages/template.jpg" />
+                      <img src="/images/somtoimages/template.jpg" />
+                      <img src="/images/somtoimages/template.jpg" />
+                      <img src="/images/somtoimages/template.jpg" />
+                      <img src="/images/somtoimages/template.jpg" />
+                      <img src="/images/somtoimages/template.jpg" />
                   </div>
-
-                </div>
+                      <div  className={style.project_showmore}>
+                        <p>Show More</p>
+                      </div>
+                    </div>
 
                 
 
                 
                 <div id="skills" className={style.skills}>
-                  <div className={style.skills_title}>7
-                    <h1>My Skills</h1>
-                    <div className={style.skills_images}>
-                      <main className={style.skills_main}>
-                        <div>1</div>
-                        <div>1</div>
-                        <div>1</div>
-                        <div className={style.four}>1</div>
-                        <div>1</div>
-                        <div>1</div>
-                        
-                      </main>
-                    </div>
+                  <div className={style.skills_title}>
+                    <h1>My Services</h1>
+                        <div className={style.skills_images}>
+                          <p className={style.skills_p}>Web design</p>
+                          <p className={style.skills_p}>Graphics design</p>
+                          <p className={style.skills_p}>Social Media</p>
+                          <p className={style.skills_p}>App design</p>
+                          <p className={style.skills_p}>Digital marketing</p>
+                          <p className={style.skills_p}>Content writing</p>
+                      </div>
 
                   </div>
 
@@ -111,7 +121,13 @@ export default function Somto() {
 
 
                 <div id="experience" className={style.experience}>
-
+                  <h1>My Experience</h1>
+                  <p>I have 2 years of experience in multiple companies like Microsoft, Tesla and Apple.</p>
+                  <div className={style.experience_images}>
+                      <img src="/images/somtoimages/microsoft-company-culture-1.jpg" />
+                      <img src="/images/somtoimages/tesla-gigafactory-4-europe.jpg" />
+                      <img src="/images/somtoimages/apple-success-story.jpg" />
+                  </div>
                 </div>
 
 
@@ -138,30 +154,34 @@ export default function Somto() {
                           </div>
                         </div>
                   </div>
-                   <form className={style.contact_right}>
+                   <form id="connectwithme" className={style.contact_right}>
                           <label htmlFor=''>Your Name</label>
-                          <input type="text" placeholder='Enter yor name' name='name'></input>
+                          <input type="text" placeholder='Enter your name' name='name'></input>
                           <label htmlFor=''>Your Email</label>
-                          <input type="email" placeholder='Enter yor email' name='email'></input>
+                          <input type="email" placeholder='Enter your email' name='email'></input>
                           <label htmlFor=''>Write your message here</label>
                           <textarea type="message" rows='8' placeholder='Enter your message here' name='name'></textarea>
                           <button type='submit' className={style.contact_submit}>Submit now</button>
                         </form>
                 </div>
               </div>
+        
 
+
+
+              <hr style={{width:"100%"}} />
               <div className={style.footer}>
-                <hr />
                 <p className={style.footer_bottom}> © 2025 Okolo Somto. All rights reserved</p>
                 <div className={style.footer_bottom_right}>
                   <p>Term of Services</p>
                   <p>Privacy Policy</p>
-                  <p>Connect with me</p>
 
                 </div>
 
 
               </div>
+
+
 
 
 
