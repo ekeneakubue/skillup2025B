@@ -54,7 +54,8 @@ export default function Portfolio() {
                 <PortfolioCard 
                   img = './images/portfolios/Munachi.jpg'
                   name = 'Munachi, Krisagbedo'
-                  path='Frontend Engineer'
+                  path='Frontend Developer'
+                  link='/munachi'
                 />
                 <PortfolioCard 
                   img = './images/portfolios/favour.jpg'

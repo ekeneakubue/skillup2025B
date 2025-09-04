@@ -1,0 +1,939 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800vh;
+    background: white linear-gradient(to right, white, rgb(190, 139, 219));
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'Hanken Grotesk';  
+    justify-content: space-between;
+    background-color: white;
+    left: 0;
+    width: 100%;
+    transition: top 0.4s;
+    box-shadow: 2px 1px 5px black;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.brand {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(205, 88, 205);
+    border-radius: 50%;
+    color: white;
+    padding: 0.5rem;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand_name {
+    font-size: 30px;
+    font-weight: 900;
+    color: #212121;
+}
+
+.nav_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.skills > a:hover {
+    color: rgb(205, 88, 205);
+}
+
+.contact {
+    color: white;
+    background-color: rgb(205, 88, 205);
+    padding: 0.7rem;
+    border-radius: 10px;
+}
+
+.contact > a {
+    color: white;
+}
+
+.contact:hover {
+    box-shadow: 2px 1px 10px black;
+    transition: 0.5s;    
+}
+
+.about {
+    padding: 0.5rem;
+}
+
+.about > a:hover {
+    color: rgb(205, 88, 205);
+}
+
+.projects {
+    padding: 0.5rem;
+}
+
+.projects > a:hover {
+    color: rgb(205, 88, 205);
+}
+
+.hero {
+    display: flex;
+    margin-top: 5rem;
+    width: 100%;
+    height: 87vh;
+    font-family: 'Hanken Grotesk';  
+}
+
+.left_hero_section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 87vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.up {
+    height: 50vh;
+    width: 70%;
+}
+
+.hero_title_2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(205, 88, 205);
+}
+
+.hero_title {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.hero_content {
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+.hero_hire_btn {
+    border: none;
+    background-color: rgb(205, 88, 205);
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Hanken Grotesk';  
+    margin-top: 1.5rem;
+}
+
+.hero_hire_btn:hover {
+    box-shadow: 2px 1px 10px black;
+    transition: 0.5s;
+}
+
+.hero_about_btn {
+    border: none;
+    background-color: rgb(205, 88, 205);
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Hanken Grotesk';  
+    margin-top: 1.5rem;    
+    margin-left: 1rem;
+    
+}
+
+.hero_about_btn:hover {
+    box-shadow: 2px 1px 10px black;
+    transition: 0.5s;   
+}
+
+.hero_about_btn > a {
+    color: white;
+}
+
+.down {
+    display: flex;
+    height: 90px;
+    width: 500px;
+    gap: 1.5rem;
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 90px;
+    background-color: rgb(233, 231, 231);
+}
+
+.b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 90px;
+    background-color: rgb(233, 231, 231);
+}
+
+.c {
+    background-color: rgb(233, 231, 231);    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 90px;
+}
+
+.right_hero_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 87vh;
+}
+
+.munachi {
+    height: 70vh;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.about_section {
+    display: flex;
+    width: 100%;
+    height: 120vh;
+    font-family: 'Hanken Grotesk';  
+}
+
+
+.about_left_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    width: 50%;
+    gap: 1.5rem;
+    margin-left: 3rem;
+}
+
+.munachi2 {
+    height: 80vh;
+    border-radius: 10px;
+}
+
+.about_right_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.writeup_title {
+    font-size: 40px;
+    margin-top: -15rem;
+    margin-right: 19.3rem;
+}
+
+.writeup_title > span {
+    color: rgb(205, 88, 205);
+}
+
+.sm_holder {
+    background-color: white;
+    height: 100px;
+    width: 400px;
+    margin-top: -3rem;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    box-shadow: 2px 1px 10px black;
+}
+
+.writeup {
+    font-size: 30px;
+    text-align: left;
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+.about_btn_holder {
+    display: flex;
+    margin-bottom: -5rem;
+    margin-top: 5rem;
+    margin-left: -25rem;
+    gap: 2rem;
+}
+
+.cv_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(205, 88, 205);
+    border-radius: 10px;
+    padding: 0.3rem;
+    font-size: 20px;
+    font-family: 'Hanken Grotesk'; 
+    color: white;
+}
+
+.cv_btn:hover {
+    transition: 0.5s;
+    box-shadow: 2px 1px 10px black;
+}
+
+.pro_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: 'Hanken Grotesk'; 
+    color: black;
+}
+
+.pro_btn:hover {
+    box-shadow: 2px 1px 10px black;
+    transition: 0.5s;
+}
+
+.icon2 {
+    height: 40px;
+    width: 40px;
+}
+
+.projects_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+    font-family: 'Hanken Grotesk';  
+}
+
+.projects_title {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Hanken Grotesk';
+    color: rgb(205, 88, 205);
+}
+
+.projects_writeup {
+    font-size: 30px;
+    color: white;
+}
+
+.projects_holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    height: 120vh;
+    width: 100%;
+}
+
+
+.project_1 {
+    background-color: white;
+    width: 30%;
+    height: 90vh;
+    border-radius: 5px;
+}
+
+.project_1:hover {
+    box-shadow: 2px 1px 10px black;
+    transition: 0.5s;
+}
+
+.random_1 {
+    height: 50vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project_2 {
+    background-color: white;
+    width: 30%;
+    height: 90vh;
+    border-radius: 5px;
+}
+
+.project_2:hover {
+    box-shadow: 2px 1px 10px black;
+    transition: 0.5s;
+}
+
+.project_3 {
+    background-color: white;
+    width: 30%;
+    height: 90vh;
+    border-radius: 5px;    
+}
+
+.project_3:hover {
+    box-shadow: 2px 1px 10px black;
+    transition: 0.5s;
+}
+
+.project_1_title {
+    font-size: 17px;
+    margin-top: 1rem;
+    color: rgb(201, 180, 180);
+    margin-left: 1rem;
+}
+
+.project_1_title2 {
+    font-size: 30px;
+    color: black;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.project_1_content {
+    font-size: 20px;
+    color: rgb(201, 180, 180);
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.project_1_check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+    font-family: 'Hanken Grotesk';
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem;
+    gap: 0.3rem;
+    border: 2px solid rgb(198, 196, 196);
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.project_1_check:hover {
+    border: 2px solid rgb(205, 88, 205);
+    color: rgb(205, 88, 205);
+    cursor: pointer;
+    gap: 1rem;
+    transition: 0.5s;
+}
+
+.for {
+    height: 30px;
+    width: 30px;
+}
+
+.skill_section {
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill_title {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Hanken Grotesk';
+    color: rgb(205, 88, 205);
+    margin-bottom: 2rem;
+}
+
+.skill_holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    height: 140vh;
+    width: 100%;
+    font-family: 'Hanken Grotesk';
+    gap: 2rem;
+}
+
+.skill_icon {
+    height: 100px;
+    width: 100px;
+}
+
+.html {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 2rem;
+}
+
+.html_bar {
+    width: 500px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.html_bar_2 {
+    width: 450px;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, purple, white);
+}
+
+.score {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.c_bar_2 {
+    width: 150px;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, purple, white);
+}
+
+.css_bar_2 {
+    width: 350px;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, purple, white);    
+}
+
+.js_bar_2 {
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, purple, white);    
+}
+
+.react_bar_2 {
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, purple, white);    
+}
+
+.contact_section {
+    height: 170vh;
+    width: 100%;
+    display: flex;
+}
+
+.con_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(205, 88, 205);
+    border-radius: 10px;
+    padding: 0.7rem;
+    font-size: 20px;
+    font-family: 'Hanken Grotesk'; 
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.con_btn:hover {
+    box-shadow: 2px 1px 10px black;
+    transition: 0.5s;   
+    cursor: pointer;
+}
+
+.con_btn > a {
+    color: white;
+}
+
+.back_to_top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    background: rgb(205, 88, 205);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 0.8rem 1.2rem;
+    font-size: 20px;
+    font-family: 'Hanken Grotesk';
+    box-shadow: 2px 1px 10px black;
+    cursor: pointer;
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(40px);
+    pointer-events: none;
+    transition: opacity 0.4s, transform 0.4s;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.back_to_top:hover {
+    background: #fff;
+    color: rgb(205, 88, 205);
+    border: 2px solid rgb(205, 88, 205);
+}
+
+.happy {
+    margin-top: 10rem;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.happy1 {
+    font-family: 'Hanken Grotesk';
+    font-size: 50px;
+    color: rgb(205, 88, 205);
+}
+
+.happy2 {
+    font-family: 'Hanken Grotesk';
+    font-size: 25px;
+}
+
+.marquee_holder {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.marquee {
+    display: flex;
+    gap: 4rem; /* space between icons */
+    animation: marquee 8s linear infinite;
+    width: max-content;
+}
+
+@keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+}
+
+.skill_i {
+  height: 170px;
+  width: 170px;
+  object-fit: contain;
+}
+
+.contact_section {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    margin-top: 10rem;
+}
+
+.contact_left_section {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.contact_title {
+    font-size: 35px;
+    color: rgb(205, 88, 205);
+    font-family: 'Hanken Grotesk';
+}
+
+.contact_under_title {
+    font-family: 'Hanken Grotesk';
+    font-size: 25px;
+    color: lightgrey;
+    text-align: center;
+}
+
+.con_holder {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.add {
+    display: flex;
+    gap: 1rem;
+    margin-left: 3rem;
+}
+
+.email {
+  display: flex;
+  gap: 1rem;
+  margin-left: 3rem;
+}
+
+.logo2 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.add_title {
+    color: lightgrey;
+    font-family: 'Hanken Grotesk';
+    font-size: 17px;
+}
+
+.add_undertitle {
+    font-family: 'Hanken Grotesk';
+    font-weight: 600;
+}
+
+.sm_holder2 {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-left: -20rem;
+    margin-top: 2rem;
+}
+
+.icon2 {
+    height: 30px;
+    width: 30px;
+}
+
+.contact_right_section {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.contact_title2 {
+    color: lightgrey;
+    font-size: 25px;
+    font-family: 'Hanken Grotesk';
+    margin-top: -1rem;
+    margin-left: 2.5rem;
+}
+
+form {
+    display: flex;
+    gap: 0.3rem;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: -3rem;
+    margin-left: -3rem;
+}
+
+.form2 {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.lol {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid lightgrey;
+    font-size: 22px;
+    font-family: 'Hanken Grotesk';
+    color: lightgrey;  
+    width: 500px;
+
+}
+
+.lol2 {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid lightgrey;
+    font-size: 22px;
+    font-family: 'Hanken Grotesk';
+    color: lightgrey;  
+    width: 250px; 
+}
+
+.send {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    gap: 0.3rem;
+    font-size: 15px;
+    font-family: 'Hanken Grotesk';
+    padding: 0.5rem;
+    border-radius: 5px;   
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: rgb(70, 62, 101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    margin-top: 4rem;
+    gap: 5rem;
+}
+
+.brand2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Hanken Grotesk';
+}
+
+.brand3 {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(205, 88, 205);
+    border-radius: 50%;
+    color: white;
+    padding: 0.5rem;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand_name2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.nav_items2 {
+    color: lightgrey;
+    font-family: 'Hanken Grotesk';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 18px;
+}
+
+
+.skills2 > a {
+    color: lightgrey;
+    font-family: 'Hanken Grotesk'; 
+}
+
+.skills2 > a:hover {
+    color: #fff;
+}
+
+.contact2 > a {
+    color: lightgrey;
+    font-family: 'Hanken Grotesk';
+}
+
+.contact2 > a:hover {
+    color: #fff;
+}
+
+.about2 > a {
+    color: lightgrey;
+}
+
+.about2 > a:hover {
+    color: #fff;
+}
+
+.projects2 > a {
+    color: lightgrey;
+}
+
+.projects2 > a:hover {
+    color: #fff;
+}
+
+.d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: lightgray;
+    font-family: 'Hanken Grotesk';
+}
