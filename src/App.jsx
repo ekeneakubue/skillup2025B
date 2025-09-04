@@ -22,6 +22,7 @@ function App() {
         <Route path = '/ekene' element = {<Ekene />} />
         <Route path = '/soch' element = {<Soch/>} />
         <Route path = '/contacts' element = {<Contacts />} />
+        <Route path = '/nnaemeka' element = {<Nnaemeka />} />
       </Routes>
     </BrowserRouter>
   )
