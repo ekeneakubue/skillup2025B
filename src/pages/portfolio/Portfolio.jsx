@@ -70,6 +70,7 @@ export default function Portfolio() {
                   img = './images/portfolios/bunny.jpeg'
                   name = 'Chukwuone, Sochima' 
                   path='Junior Frontend Engineer'
+                  link='/soch'
                 />                
               </section>
             </div>
