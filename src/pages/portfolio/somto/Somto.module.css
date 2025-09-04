@@ -382,13 +382,13 @@ li a:active{
   border-radius: 13px;
   box-shadow:  4px 7px 7px 0px rgb(114, 99, 99);
   cursor: pointer;
-  transition: 400ms;
+  transition: 0.3s;
   
 }
 
 .project_images img:hover{
-  filter: grayscale(1);
   transform: scale(1.03);
+  transition: 0.3s;
 }
 
 
@@ -610,12 +610,14 @@ li a:active{
   color:rgb(128, 128, 128);
   font-size: 22px;
   font-weight: 500;
+  margin: none;
+  height: 60px;
 }
 
 .contact_right input{
   border: none;
-  width:700px;
-  height: 78px;
+  width: 650px;
+  height: 60px;
   padding-left: 20px;
   border-radius: 4px;
   background: #222;
@@ -625,7 +627,8 @@ li a:active{
 }
 
 .contact_right textarea{
-  width:650px;
+  max-width: 650px;
+  max-height: 100px;
   border:none;
   padding: 25px;
   border-radius: 4px;
@@ -655,28 +658,75 @@ li a:active{
 
 /*FOOTER*/
 .footer{
-  margin: 20px 100px;
   display: flex;
   flex-direction: column;
-  gap:30px;
+  gap:20px;
+  text-align: center;
+  background-color: #333;
+  color: #918989;
 }
 
 .footer p{
-  margin-top: 0;
+  margin-top: 10px;
 }
 .footer_bottom{
   display: flex;
   justify-content: space-between;
   font-size: 18px; 
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .footer_bottom_right{
   display: flex;
   gap: 50px;
-  margin-bottom: 50px;
-  
+  margin-bottom: 10px;
+}
 
+.gobackbtn{
+  padding: 15px 15px;
+  border-radius: 50px;
+  background: green;
+  border: none;
+  cursor:pointer;
+  color: #ffffff;
+  gap:20rem;
+  display:flex;
+  transition: 0.5s;
+  margin-left: 850px;
+}
+
+.gobackbtn:hover{
+  transform: scale(1.05);
+}
+
+
+
+
+
+.scrollup{
+  
+}
+
+.back_to_top{
+  position: fixed;
+  bottom: 20px;        /* distance from bottom */
+  right: 20px;         /* distance from right */
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.back_to_top:hover {
+  background-color: darkred;
 }
 
 

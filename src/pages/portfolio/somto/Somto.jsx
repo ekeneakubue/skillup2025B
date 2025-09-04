@@ -18,7 +18,7 @@ export default function Somto() {
                     <li><a href="#experience">EXPERIENCE</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                   </ul>
-                  <div className={style.nav_connect}><a href="#connectwithme">Connect with Me</a></div>
+                  <div className={style.nav_connect}><a href="#contact">Connect with Me</a></div>
         </div>
 
 
@@ -81,18 +81,18 @@ export default function Somto() {
                     <h1 >My latest Work</h1>
                   </div>
                   <div className={style.project_images}>
-                      <img src="/images/somtoimages/template.jpg" />
-                      <img src="/images/somtoimages/template.jpg" />
-                      <img src="/images/somtoimages/template.jpg" />
-                      <img src="/images/somtoimages/template.jpg" />
-                      <img src="/images/somtoimages/template.jpg" />
-                      <img src="/images/somtoimages/template.jpg" />
-                      <img src="/images/somtoimages/template.jpg" />
-                      <img src="/images/somtoimages/template.jpg" />
-                      <img src="/images/somtoimages/template.jpg" />
-                      <img src="/images/somtoimages/template.jpg" />
-                      <img src="/images/somtoimages/template.jpg" />
-                      <img src="/images/somtoimages/template.jpg" />
+                      <img src="/images/somtoimages/projectone.jpg" />
+                      <img src="/images/somtoimages/projecttwo.jpg" />
+                      <img src="/images/somtoimages/projectthree.webp" />
+                      <img src="/images/somtoimages/projectfour.jpg" />
+                      <img src="/images/somtoimages/projectfive.jpg" />
+                      <img src="/images/somtoimages/project6.webp" />
+                      <img src="/images/somtoimages/project7.webp" />
+                      <img src="/images/somtoimages/project8.png" />
+                      <img src="/images/somtoimages/project9.jpg" />
+                      <img src="/images/somtoimages/project10.jpg" />
+                      <img src="/images/somtoimages/project11.webp" />
+                      <img src="/images/somtoimages/project12.webp" />
                   </div>
                       <div  className={style.project_showmore}>
                         <p>Show More</p>
@@ -165,22 +165,38 @@ export default function Somto() {
                         </form>
                 </div>
               </div>
+
+
+
+
+
+         
+                <div id="home" className={style.back_to_top}>↑</div>
+
+                     
+
+            
         
 
 
 
-              <hr style={{width:"100%"}} />
               <div className={style.footer}>
-                <p className={style.footer_bottom}> © 2025 Okolo Somto. All rights reserved</p>
+                <p className={style.footer_bottom}> © 2025 Okolo Somto. All rights reserved.</p>
                 <div className={style.footer_bottom_right}>
                   <p>Term of Services</p>
                   <p>Privacy Policy</p>
+                     <Link to="/portfolio">
+                      <button className={style.gobackbtn}>Back to Portfolio</button>
+                    </Link>
+                    
+                    
+                     
 
                 </div>
 
 
               </div>
-
+           
 
 
 
