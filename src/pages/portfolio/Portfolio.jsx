@@ -30,6 +30,7 @@ export default function Portfolio() {
                   img = './images/portfolios/Chukwuemeka.jpg'
                   name = 'Chukwuemeka Olelewe' 
                   path='Fullstack developer'
+                  link='/emeka'
                 /> 
                  <PortfolioCard
                     path= 'Froontend Developer'
@@ -42,7 +43,7 @@ export default function Portfolio() {
                   path = "Frontend Developer"
                 />
                 <PortfolioCard
-                  img = './public/images/portfolios/Daberechi .jpg'
+                  img = '/images/portfolios/Daberechi .jpg'
                   name = 'Angela Dabere' 
                   path='Junior Frontend Engineer'
                 />
