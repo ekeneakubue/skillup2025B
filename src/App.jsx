@@ -8,7 +8,6 @@ import Portfolio from './pages/portfolio/Portfolio'
 import Gallery from './pages/gallery/Gallery'
 import Contacts from './pages/contacts/Contacts'
 import Ekene from './pages/portfolio/ekene/Ekene'
-import Chukwuemeka from './pages/portfolio/Chukwuemeka/Chukwuemeka'
 
 function App() {
 
@@ -22,6 +21,7 @@ function App() {
         <Route path = '/ekene' element = {<Ekene />} />
         <Route path = '/emeka' element = {<Chukwuemeka />} />
         <Route path = '/contacts' element = {<Contacts />} />
+        <Route path = '/nnaemeka' element = {<Nnaemeka />} />
       </Routes>
     </BrowserRouter>
   )
